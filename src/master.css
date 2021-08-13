@@ -1,0 +1,18 @@
+.card-container {
+    box-sizing: border-box;
+    width: 50%;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .card-container .column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .card-container .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
